@@ -1,0 +1,56 @@
+@font-face {
+    font-family: TEXTEXA;
+    src: url(FONT/Roboto-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+    transform: ;
+ }
+
+ 
+ #titulo{
+    font-family:TEXTEXA ;
+ }
+ #TITLIS{
+    font-family: TEXTEXA;
+}
+
+
+ img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2);
+ }
+
+ #tablames{
+    color: black;
+    text-align: center;
+    background: rgb(12,209,255);
+    background: linear-gradient(90deg, rgba(12,209,255,1) 0%, rgba(0,165,255,1) 47%, rgba(0,46,255,1) 99%);
+}
+
+#dia{
+    color: white;
+}
+
+#inicio{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+}
+#inicio:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
